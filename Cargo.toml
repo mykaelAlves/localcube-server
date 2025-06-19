@@ -9,4 +9,4 @@ hyper = { version = "1", features = ["full"] }
 http-body-util = "0.1"
 hyper-util = { version = "0.1", features = ["full"] }
 toml = "0.8.23"
-serde = "1.0.219"
+serde = { version="1.0.219", features=["derive"] }

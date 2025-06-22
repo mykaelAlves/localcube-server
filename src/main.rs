@@ -50,6 +50,7 @@ struct Address {
 struct CurrentUser {
     name: String,
 }
+
 task_local! {
     pub static USER: CurrentUser;
 }

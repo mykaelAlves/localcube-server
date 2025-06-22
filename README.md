@@ -5,6 +5,6 @@ this:
 
 ```toml
 [address]
-ip = <ip> # e.g.: [127, 0, 0, 1]
-port = <port> # e.g.: 40500
+ip = "<ip>" # e.g.: [127, 0, 0, 1]
+port = "<port>" # e.g.: 40500
 ```

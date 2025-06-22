@@ -17,10 +17,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Rust toolchain
+      - name: Install Dependencies and Rust Toolchain
         run: |
           pacman -Syu --noconfirm
-          pacman -S --noconfirm rustup
+          pacman -S --noconfirm base-devel rustup
           rustup default stable
           rustup update
 
